@@ -11,7 +11,7 @@ GET https://insidedoor.herokuapp.com/api/v1/1/31
 
 ## deploy your own server
 ```
-$ git clone git@github.com:h53/inside-door-restful-api.git
+$ git clone https://github.com/h53/inside-door-restful-api.git
 $ cd inside-door-restful-api
 $ npm install
 ```
