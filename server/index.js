@@ -5,8 +5,8 @@ const app = express();
 app.use(cors());
 //app.use(express.json())
 
-const routerv1 = require('./routes/api/routerv1');
-app.use('/api/v1',routerv1);
+const thisdayinhistoryv1zh = require('./routes/api/thisdayinhistoryv1zh');
+app.use('/api/thisdayinhistory/v1/zh',thisdayinhistoryv1zh);
 
 const root = require('./routes/root');
 app.use('/',root);

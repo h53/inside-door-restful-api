@@ -5,8 +5,8 @@ a free restful api for [inside door](https://github.com/h53/inside-door-wechat-m
 
 ## how to use
 ```
-GET https://insidedoor.herokuapp.com/api/version/month/day
-GET https://insidedoor.herokuapp.com/api/v1/1/31
+GET https://insidedoor.herokuapp.com/api/api-name/version/language/month/day
+GET https://insidedoor.herokuapp.com/api/thisdayinhistory/v1/zh/1/31
 ```
 
 ## deploy your own server
@@ -19,5 +19,5 @@ import database file to your mongodb, db `thedoor` collection `zh1`, change data
 you can find database file at [here](https://github.com/h53/inside-door-wechat-miniprogram/tree/master/database)
 ```
 $ npm start
-GET http://localhost:5000/api/v1/1/31
+GET http://localhost:5000/api/thisdayinhistory/v1/zh/1/31
 ```
